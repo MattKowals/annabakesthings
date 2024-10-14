@@ -1,8 +1,10 @@
 <template>
   <div class="card">
     <h2 class="bread-name"> {{ bread.name }} </h2>
+    <h4 class="net-weight"> {{bread.netWeight}} </h4>
     <img :src="getImage" alt="image" class="bread-img"> 
     <h3 class="bread-price"> {{ bread.price }} </h3>
+    <h4 class="bread-ingredients"> {{bread.ingredients}} </h4>
   </div>
 </template>
 

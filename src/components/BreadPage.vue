@@ -45,7 +45,7 @@ export default {
 
 .bread-container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
   grid-template-areas: 
       "standard"
       "specialty"
