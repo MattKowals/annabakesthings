@@ -7,9 +7,9 @@ export function createStore() {
                 {
                     name: "bread1",
                     img: "../assets/bread1.jpg",
-                    ingredients: "ingredients1",
+                    ingredients: "AP flour (unbleached hard red wheat flour, enzyme or malted barley flour), apples, milk, canola oil, almonds, sugar, vanilla extract (water, sugar, glycerin, vanilla extract, alcohol, natural flavors, fruit juice),  thyme, salt, yeast",
                     price: "price1",
-                    netWeight: "",
+                    netWeight: "31oz/880g",
                     description: "desc1"
                 },
                 {
@@ -23,7 +23,7 @@ export function createStore() {
                 {
                     name: "Apple Thyme",
                     img: "img3",
-                    ingredients: " AP flour (unbleached hard red wheat flour, enzyme or malted barley flour), apples, milk, canola oil, almonds, sugar, vanilla extract (water, sugar, glycerin, vanilla extract, alcohol, natural flavors, fruit juice),  thyme, salt, yeast",
+                    ingredients: "AP flour (unbleached hard red wheat flour, enzyme or malted barley flour), apples, milk, canola oil, almonds, sugar, vanilla extract (water, sugar, glycerin, vanilla extract, alcohol, natural flavors, fruit juice),  thyme, salt, yeast",
                     price: "price3",
                     netWeight: "31oz/880g",
                     description: "Apple Thyme Loaf"

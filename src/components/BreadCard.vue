@@ -25,7 +25,7 @@ export default {
     border: 2px solid black;
     border-radius: 10px;
     width: 400px;
-    height: 400px;
+    height: 500px;
     margin: 20px;
     background-color: wheat;
     text-align: center;

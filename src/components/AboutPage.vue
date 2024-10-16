@@ -55,17 +55,18 @@ export default {
 .about {
   padding-left: 8px;
   display: grid;
-  grid-auto-columns: 1fr 1fr 2fr 1fr;
+  grid-auto-columns: 1fr 1fr;
   grid-template-areas: 
-  "anna-img anna-img about-anna about-anna"
-  "anna-img anna-img otis otis"
-  "blank review-text review-img review-img"
-  "blank review-text review-img review-img";
+  "anna-img about-anna"
+  "anna-img otis"
+  "review-text review-img"
+  "review-text review-img";
 }
 
 .anna-img {
   grid-area: anna-img;
   padding-right: 8px;
+  width: 10%;
 }
 
 .about-anna {

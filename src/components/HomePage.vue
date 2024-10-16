@@ -29,7 +29,7 @@
     </div>
 
     <div class="contact">
-      <h1>Personal orders are available!</h1>
+      <h1>Personal orders are coming soon!</h1>
       <p>I do personal orders when not in farmers market season. The pick up schedule is below</p>
       <ul style="list-style-type:none;">
         <li>Date</li>
@@ -58,10 +58,12 @@ export default {
   data: () => ({
     slides: [
         "src/assets/otis_stickers.jpg",
+        "src/assets/9P5A6953.jpg",
         "src/assets/bread1.jpg",
+        "src/assets/9P5A6966.jpg",
+        "src/assets/9P5A6969.jpg",
         "src/assets/otis_original.jpg",
-        "https://picsum.photos/id/1035/900/400",
-        "https://picsum.photos/id/1036/900/400",
+        "src/assets/9P5A7022.jpg"
     ]
 })
 }
@@ -80,7 +82,7 @@ export default {
   display: grid;
   font-weight: bold;
   color: cornsilk;
-  grid-template-rows:  0.25fr 1fr 1fr 1fr ;
+  /* grid-template-rows:  0.25fr 1fr 1fr 1fr ; */
   grid-template-areas: 
       "welcome"
       "carousel"
@@ -94,18 +96,26 @@ export default {
 
 .carousel-box {
   grid-area: carousel;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .market-schedule {
   grid-area: market-schedule;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .contact {
   grid-area: contact;
+    margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .contact-note {
   margin-top: 20px;
+    margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 h1 {

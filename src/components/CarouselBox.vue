@@ -106,7 +106,7 @@
 /* Manages size of carousel window */
 .carousel-inner {
   position: relative;
-  width: 400px;
+  width: 700px;
   height: 400px;
   overflow: hidden;
 }

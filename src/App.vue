@@ -35,6 +35,10 @@
       </footer>
     </div>
 
+    <div class="designer">
+      <h3>KowalskiKodes Designs</h3>
+    </div>
+
 
   </div>
 
@@ -54,7 +58,7 @@
   grid-template-areas: 
       "logo title header"
       "main main main"
-      "footer footer footer";
+      "footer footer designer";
 }
 
 .title {
@@ -106,16 +110,18 @@ main {
   align-content: center;
 }
 
+.designer {
+  grid-area: designer;
+  background-color: rgb(162, 216, 216);
+  align-content: center;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 12px;
+}
+
 .router {
   color: blue;
 }
-
-/* @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  } */
 
 
 </style>
