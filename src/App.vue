@@ -9,7 +9,8 @@
     </div> 
 
     <div class="title">
-      <h1 class="title-text">Anna Bakes Things</h1>
+      <h1 class="title-text">Anna Bakes Things!</h1>
+      <h3 class="cottage">A cottage bakery focusing on breads</h3>
     </div>
 
     <header class="header">
@@ -35,8 +36,8 @@
       </footer>
     </div>
 
-    <div class="designer">
-      <h3>KowalskiKodes Designs</h3>
+    <div class="admin">
+      <!-- <h3>KowalskiKodes Designs</h3> -->
     </div>
 
 
@@ -58,7 +59,7 @@
   grid-template-areas: 
       "logo title header"
       "main main main"
-      "footer footer designer";
+      "footer footer admin";
 }
 
 .title {
@@ -82,6 +83,11 @@ header {
   display: flex;
   place-items: center;
   padding-right: 5%;
+}
+
+.cottage {
+  color: teal;
+  font-size: 22px;
 }
 
 header a {
@@ -110,8 +116,8 @@ main {
   align-content: center;
 }
 
-.designer {
-  grid-area: designer;
+.admin {
+  grid-area: admin;
   background-color: rgb(162, 216, 216);
   align-content: center;
   font-size: 12px;

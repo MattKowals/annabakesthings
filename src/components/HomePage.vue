@@ -2,13 +2,13 @@
   <div class="home">
 
     <div class="welcome">
-      <h1>Welcome to AnnaBakesThings!</h1>
+      <!-- <h1>Welcome to AnnaBakesThings!</h1>
       <p class="description">
         A cottage bakery focusing on breads
       </p>
       <p>
         (ADD SHOP BIO STUFF)
-      </p>
+      </p> -->
 
     </div>
 
@@ -40,7 +40,7 @@
       <p>To discuss placing an order, contact AnnaBakesThings</p>
       <p>(add in email button and security)</p>
       <p class="contact-note" >** Note - Send an email to discuss orders. Orders are due the Thursday prior to pickup days
-        and large orders may need extra time to prpare.
+        and large orders may need extra time to prepare.
       </p>
     </div>
 
@@ -74,20 +74,23 @@ export default {
 .home {
   min-height: 100vh;
   width: 100%;
-  background-image: url("../assets/black_cutting_board.avif");
+  /* background-image: url("../assets/black_cutting_board.avif"); */
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: rgb(44, 44, 44);
   display: grid;
   font-weight: bold;
   color: cornsilk;
-  /* grid-template-rows:  0.25fr 1fr 1fr 1fr ; */
   grid-template-areas: 
       "welcome"
       "carousel"
       "market-schedule"
       "contact";
+}
+
+.home {
+  justify-content: center;
 }
 
 .welcome {
@@ -121,11 +124,13 @@ export default {
 h1 {
   text-indent: 20px;
   margin-top: 20px;
+  font-size: 45px;
 }
 
 p {
   text-indent: 20px;
   margin-top: 10px;
+  font-size: 28px;
 }
 
 .description {
